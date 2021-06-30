@@ -1,0 +1,650 @@
+   nav
+{
+    box-sizing: border-box;
+}
+.enter-registration
+{
+    position: absolute;
+    top: 18%;
+    left: 11.5%;
+
+    width: 78%;
+    height: 76%;
+
+    border-right: .2em solid rgba(204,135,38,.7);
+    border-left: .2em solid rgba(204,135,38,.7);
+}
+
+/*форма регистрации*/
+.enter-registration .registration
+{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+
+    display: block;
+    overflow: hidden;
+
+    width: 40%;
+    height: 96%;
+
+    border: .15em solid #cc8726;
+    border-radius: 1em;
+    background-image: url(../system_img/registration.jpg);
+    background-size: 100% 100%;
+}
+
+.enter-registration .registration input
+{
+    font-size: 1em;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 2%;
+    padding-right: 12%;
+    padding-left: 3%;
+
+    color: #000;
+    border: .1em solid grey;
+    border-radius: .5em;
+    outline: 0;
+    background: #ccc;
+}
+
+.enter-registration .registration button
+{
+    width: 100%;
+    height: 18%;
+
+    color: #fff;
+    border: none;
+    border-radius: .5em;
+    background-color: grey;
+}
+
+.enter-registration .registration .form__field
+{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+
+    width: 80%;
+    height: 40%;
+}
+
+.enter-registration .registration .form__field #checkpass-r
+{
+    position: absolute;
+    top: 28%;
+    right: 2%;
+
+    width: 8%;
+    height: 8%;;
+}
+
+/*форма входа*/
+.enter-registration .enter
+{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+
+    display: block;
+    overflow: hidden;
+
+    width: 40%;
+    height: 96%;
+
+    border: .15em solid #cc8726;
+    border-radius: 1em;
+    background: rgb(90, 66, 40);
+    background-image: url(../system_img/enter.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 66%;
+    background-position: 0em 1em ;
+}
+
+.enter-registration .enter input
+{
+    font-size: 1em;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 20%;
+    margin-bottom: 3%;
+    padding-right: 10%;
+    padding-left: 3%;
+
+    color: #000;
+    border: .1em solid grey;
+    border-radius: .5em;
+    outline: 0;
+    background: #ccc;;
+}
+
+.enter-registration .enter button
+{
+    width: 100%;
+    height: 18%;
+
+    color: #fff;
+    border: none;
+    border-radius: .5em;
+    background-color: grey;
+}
+
+.enter-registration .enter .form__field
+{
+    position: absolute;
+    top: 68%;
+    left: 2%;
+
+    width: 96%;
+    height: 40%;
+}
+
+.enter-registration .enter .form__field #checkpass-e
+{
+    position: absolute;
+    top: 30%;
+    right: 1%;
+
+    width: 8%;
+    height: 8%;;
+}.enter-registration .form__error
+{
+    font-size: 12px;
+
+    display: block;
+    display: none;
+
+    margin-top: 3px;
+
+    text-align: left;
+
+    color: red;
+}
+
+/*tablet*/
+@media (max-width: 769px) and (max-height: 1025px)
+{
+    ::-webkit-scrollbar
+    {
+        display: none;
+    }
+    .enter-registration
+    {
+        position: absolute;
+        top: 10%;
+        left: 7%;
+
+        overflow-y: scroll;
+
+        width: 90%;
+        height: 77%;
+
+        border: none;
+    }
+    /*форма регистрации*/
+    .enter-registration .registration
+    {
+        position: relative;
+        top: 10%;
+        right: 0;
+
+        display: block;
+        overflow: hidden;
+
+        width: 95%;
+        height: 91%;
+
+        border: .15em solid #cc8726;
+        border-radius: 1em;
+        background-image: url(../system_img/registration.jpg);
+        background-size: 100% 100%;
+    }.enter-registration .registration input
+    {
+        font-size: 1em;
+
+        box-sizing: border-box;
+        width: 100%;
+        height: 20%;
+        margin-bottom: 2%;
+        padding-right: 12%;
+        padding-left: 3%;
+
+        color: #000;
+        border: .1em solid grey;
+        border-radius: .5em;
+        outline: 0;
+        background: #ccc;;
+    }.enter-registration .registration button
+    {
+        width: 100%;
+        height: 18%;
+
+        color: #fff;
+        border: none;
+        border-radius: .5em;
+        background-color: grey;
+    }.enter-registration .registration .form__field
+    {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+
+        width: 80%;
+        height: 40%;
+    }.enter-registration .registration .form__field #checkpass-r
+    {
+        position: absolute;
+        top: 28%;
+        right: 2%;
+
+        width: 8%;
+        height: 8%;;
+    }
+    /*форма входа*/
+    .enter-registration .enter
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        display: block;
+        overflow: hidden;
+
+        width: 95%;
+        height: 91%;
+
+        border: .15em solid #cc8726;
+        border-radius: 1em;
+        background: #000;
+        background-image: url(../system_img/enter.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 66%;;
+    }.enter-registration .enter input
+    {
+        font-size: 1em;
+
+        box-sizing: border-box;
+        width: 100%;
+        height: 20%;
+        margin-bottom: 3%;
+        padding-right: 10%;
+        padding-left: 3%;
+
+        color: #000;
+        border: .1em solid grey;
+        border-radius: .5em;
+        outline: 0;
+        background: #ccc;;
+    }.enter-registration .enter button
+    {
+        width: 100%;
+        height: 18%;
+
+        color: #fff;
+        border: none;
+        border-radius: .5em;
+        background-color: grey;
+    }.enter-registration .enter .form__field
+    {
+        position: absolute;
+        top: 68%;
+        left: 2%;
+
+        width: 96%;
+        height: 40%;
+    }.enter-registration .enter .form__field #checkpass-e
+    {
+        position: absolute;
+        top: 30%;
+        right: 1%;
+
+        width: 8%;
+        height: 8%;;
+    }.enter-registration .form__error
+    {
+        font-size: 12px;
+
+        display: block;
+        display: none;
+
+        margin-top: 3px;
+
+        text-align: left;
+
+        color: red;
+    }
+
+    .fantom
+    {
+        position: absolute;
+        top: 195%;
+
+        width: 100%;
+        height: 5%;
+    }
+}
+
+/*mobile M*/
+@media (max-width: 376px) and (max-height: 900px)
+{
+    .enter-registration
+    {
+        position: absolute;
+        top: 10%;
+        left: 7%;
+
+        overflow-y: scroll;
+
+        width: 90%;
+        height: 77%;
+
+        border: none;
+    }
+    /*форма регистрации*/
+    .enter-registration .registration
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        display: block;
+        overflow: hidden;
+
+        width: 95%;
+        height: 91%;
+
+        border: .15em solid #cc8726;
+        border-radius: 1em;
+        background-color: black;
+        background-image: url(../system_img/registration.jpg);
+        background-repeat: no-repeat;
+        background-position: 0 40%;
+        background-size: 100% 90%;
+    }.enter-registration .registration input
+    {
+        font-size: 1em;
+
+        box-sizing: border-box;
+        width: 100%;
+        height: 20%;
+        margin-bottom: 2%;
+        padding-right: 12%;
+        padding-left: 3%;
+
+        color: #000;
+        border: .1em solid grey;
+        border-radius: .5em;
+        outline: 0;
+        background: #ccc;;
+    }.enter-registration .registration button
+    {
+        width: 100%;
+        height: 18%;
+
+        color: #fff;
+        border: none;
+        border-radius: .5em;
+        background-color: grey;
+    }.enter-registration .registration .form__field
+    {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+
+        width: 80%;
+        height: 40%;
+    }.enter-registration .registration .form__field #checkpass-r
+    {
+        position: absolute;
+        top: 28%;
+        right: 2%;
+
+        width: 8%;
+        height: 8%;;
+    }
+    /*форма входа*/
+    .enter-registration .enter
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: block;
+        overflow: hidden;
+
+        width: 95%;
+        height: 91%;
+
+        border: .15em solid #cc8726;
+        border-radius: 1em;
+        background: #000;
+        background-image: url(../system_img/enter.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: 200% 66%;
+    }.enter-registration .enter input
+    {
+        font-size: 1em;
+
+        box-sizing: border-box;
+        width: 100%;
+        height: 20%;
+        margin-bottom: 3%;
+        padding-right: 10%;
+        padding-left: 3%;
+
+        color: #000;
+        border: .1em solid grey;
+        border-radius: .5em;
+        outline: 0;
+        background: #ccc;;
+    }.enter-registration .enter button
+    {
+        width: 100%;
+        height: 18%;
+
+        color: #fff;
+        border: none;
+        border-radius: .5em;
+        background-color: grey;
+    }.enter-registration .enter .form__field
+    {
+        position: absolute;
+        top: 68%;
+        left: 2%;
+
+        width: 96%;
+        height: 40%;
+    }.enter-registration .enter .form__field #checkpass-e
+    {
+        position: absolute;
+        top: 30%;
+        right: 1%;
+
+        width: 8%;
+        height: 8%;;
+    }.enter-registration .form__error
+    {
+        font-size: 12px;
+
+        display: block;
+        display: none;
+
+        margin-top: 3px;
+
+        text-align: left;
+
+        color: red;
+    }
+
+    .fantom
+    {
+        position: absolute;
+        top: 195%;
+
+        width: 100%;
+        height: 5%;
+    }
+}
+
+/*сжимание экрана смартфона при использовании поиска*/
+@media (max-width: 481px) and (max-height: 491px)
+{
+    .enter-registration
+    {
+        position: absolute;
+        top: 7%;
+        left: 5%;
+
+        overflow-y: scroll;
+
+        width: 90%;
+        height: 72%;
+
+        border: none;
+    }
+    /*форма регистрации*/
+    .enter-registration .registration
+    {
+        position: relative;
+        top: 20%;
+        right: 0;
+
+        display: block;
+        overflow: hidden;
+
+        width: 95%;
+        height: 91%;
+
+        border: .15em solid #cc8726;
+        border-radius: 1em;
+        background: black;
+    }.enter-registration .registration input
+    {
+        font-size: 1em;
+
+        box-sizing: border-box;
+        width: 100%;
+        height: 21%;
+        margin-bottom: 4%;
+        padding-right: 12%;
+        padding-left: 3%;
+
+        color: #000;
+        border: .1em solid grey;
+        border-radius: .5em;
+        outline: 0;
+        background: #ccc;;
+    }.enter-registration .registration button
+    {
+        width: 100%;
+        height: 18%;
+
+        color: #fff;
+        border: none;
+        border-radius: .5em;
+        background-color: grey;
+    }.enter-registration .registration .form__field
+    {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+
+        overflow: hidden;
+
+        width: 90%;
+        height: 90%;
+    }.enter-registration .registration .form__field #checkpass-r
+    {
+        position: absolute;
+        top: 31.5%;
+        right: 6%;
+
+        width: 10%;
+        height: 10%;;
+    }
+    /*форма входа*/
+    .enter-registration .enter
+    {
+        position: relative;
+        top: 6%;
+        left: 0;
+
+        display: block;
+        overflow: hidden;
+
+        width: 95%;
+        height: 80%;
+
+        border: .15em solid #cc8726;
+        border-radius: 1em;
+        background: black;
+    }.enter-registration .enter input
+    {
+        font-size: 1.5em;
+
+        box-sizing: border-box;
+        width: 100%;
+        height: 70%;
+        margin-bottom: 3%;
+        padding-right: 20%;
+        padding-left: 3%;
+
+        color: black;
+        border: .1em solid grey;
+        border-radius: .7em;
+        outline: 0;
+        background: #ccc;
+    }.enter-registration .enter button
+    {
+        width: 100%;
+        height: 50%;
+
+        color: #fff;
+        border: none;
+        border-radius: .7em;
+        background-color: grey;
+    }.enter-registration .enter .form__field
+    {
+        position: absolute;
+        top: 9%;
+        left: 2%;
+
+        width: 96%;
+        height: 40%;
+    }.enter-registration .enter .form__field #checkpass-e
+    {
+        position: absolute;
+        top: 99%;
+        right: 1%;
+
+        width: 23%;
+        height: 23%;;
+    }.enter-registration .form__error
+    {
+        font-size: 1em;
+
+        display: block;
+        display: none;
+
+        margin-top: 3px;
+
+        text-align: left;
+
+        color: red;
+    }
+
+    .fantom
+    {
+        position: absolute;
+        top: 195%;
+
+        width: 100%;
+        height: 5%;
+    }
+}

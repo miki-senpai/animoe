@@ -1,0 +1,624 @@
+/*главное меню*/
+.dropdown
+{
+    font-size: 2vh;
+
+    float: left;
+    overflow: hidden;
+
+    width: 10%;
+    height: 100%;
+}
+
+.dropbutton
+{
+    font-size: 2.8em ;
+
+    width: 100%;
+    height: 100%;
+
+    transition: .7s;
+
+    color: white;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+#trash0:hover
+{
+    background: black;
+}
+
+.topbar a:hover,
+.dropdown:hover .dropbutton
+{
+    cursor: pointer;
+
+    background-color: rgb(204,135,38);
+}
+
+.droplink
+{
+    font-size: 3vh;
+
+    position: absolute;
+    z-index: 1;
+    top: 12.09vh;
+
+    overflow: hidden;
+
+    width: 10%;
+    height: 0;
+
+    transition: .8s;
+
+    border: .15em solid grey;
+    border-top: none;
+    border-bottom: none;
+    outline: none;
+    background-color: black ;
+}
+
+.droplink a
+{
+    display: block;
+    float: none;
+
+    height: 8vh;
+
+    text-decoration: none;
+
+    color: white;
+}
+
+.droplink a:hover
+{
+    color: white;
+    background-color: rgb(204,135,38);
+}
+
+.dropdown:hover .droplink
+{
+    height: 32vh;
+
+    transition: .8s;
+
+    border-bottom: .15em solid grey;
+}
+
+.dropdown:hover .droplink a
+{
+    transition: 1s;
+}
+
+.text
+{
+    font-family: times new roman;
+    font-size: 1.3em;
+
+    position: relative;
+    top: 17%;
+
+    padding-left: 2vh;
+}
+
+/*laptop L*/
+@media (max-width: 1441px) and (max-height: 900px)
+{
+    .dropbutton
+    {
+        font-size: 2.5em ;
+
+        width: 100%;
+        height: 100%;
+
+        color: white;
+        border: none;
+        outline: none;
+        background-color: inherit;
+    }
+
+    .topbar a:hover,
+    .dropdown:hover .dropbutton
+    {
+        background-color: rgb(204,135,38);
+    }
+
+    .droplink a
+    {
+        display: block;
+        float: none;
+
+        height: 8vh;
+
+        text-decoration: none;
+
+        color: white;
+    }
+
+    .droplink a:hover
+    {
+        color: white;
+        background-color: rgb(204,135,38);
+    }
+
+    .dropdown:hover .droplink
+    {
+        display: block;
+    }
+
+    .text
+    {
+        font-family: times new roman;
+        font-size: 1.1em;
+
+        position: relative;
+        top: 17%;
+
+        padding-left: 2vh;
+    }
+}
+
+/*laptop*/
+@media (max-width: 1240px) and (max-height: 900px)
+{
+    .dropbutton
+    {
+        font-size: 2.1em ;
+
+        width: 100%;
+        height: 100%;
+
+        color: white;
+        border: none;
+        outline: none;
+        background-color: inherit;
+    }
+
+    .topbar a:hover,
+    .dropdown:hover .dropbutton
+    {
+        background-color: rgb(204,135,38);
+    }
+    
+    .droplink a
+    {
+        display: block;
+        float: none;
+
+        height: 8vh;
+
+        text-decoration: none;
+
+        color: white;
+    }
+
+    .droplink a:hover
+    {
+        color: white;
+        background-color: rgb(204,135,38);
+    }
+
+    .dropdown:hover .droplink
+    {
+        display: block;
+    }
+
+    .text
+    {
+        font-family: times new roman;
+        font-size: .85em;
+
+        position: relative;
+        top: 17%;
+
+        padding-left: 2vh;
+    }
+}
+
+/*tablet*/
+@media (max-width: 769px) and (max-height: 1025px)
+{
+    /*главное меню*/
+    .dropdown
+    {
+        font-size: 2vh;
+
+        float: right;
+        overflow: hidden;
+
+        width: 30vw ;
+        height: 100%;
+    }
+
+    .dropbutton
+    {
+        font-size: 2.3em;
+
+        width: 100%;
+        height: 100%;
+
+        color: white;
+        border: none;
+        outline: none;
+        background-color: inherit;
+    }
+
+    .topbar a:hover,
+    .dropdown:hover .dropbutton
+    {
+        background-color: rgb(204,135,38);
+    }
+
+    .droplink
+    {
+        position: absolute;
+        z-index: 1;
+        top: -48.6vh;
+
+        display: none;
+
+        width: 30vw;
+
+        border: .17em solid grey;
+        border-bottom: none;
+        border-radius: .5em .5em 0 0;
+        background-color: black ;
+    }
+
+    .droplink a
+    {
+        display: block;
+
+        height: 8vh;
+
+        text-decoration: none;
+
+        color: white;
+        border-radius: .35em .35em 0 0;
+    }
+
+    .text
+    {
+        font-size: 1em;
+
+        position: relative;
+        top: 30%;
+        left: -4%;
+    }
+
+    .droplink a:hover
+    {
+        color: white;
+        background-color: rgb(204,135,38);
+    }
+
+    .dropdown:hover .droplink
+    {
+        display: block;
+
+        height: auto;
+    }
+}
+
+/*mobile L*/
+@media (max-width: 426px) and (max-height: 900px)
+{
+    /*главное меню*/
+    .dropdown
+    {
+        font-size: 2vh;
+
+        float: right;
+        overflow: hidden;
+
+        width: 30vw ;
+        height: 100%;
+    }
+
+    .dropbutton
+    {
+        font-size: 2.3em;
+
+        width: 100%;
+        height: 100%;
+
+        color: white;
+        border: none;
+        outline: none;
+        background-color: inherit;
+    }
+
+    .topbar a:hover,
+    .dropdown:hover .dropbutton
+    {
+        background-color: rgb(204,135,38);
+    }
+
+    .droplink
+    {
+        position: absolute;
+        z-index: 1;
+        top: -48.6vh;
+
+        display: none;
+
+        width: 30vw;
+
+        border: .17em solid grey;
+        border-bottom: none;
+        border-radius: .5em .5em 0 0;
+        background-color: black ;
+    }
+
+    .droplink a
+    {
+        display: block;
+
+        height: 8vh;
+
+        text-decoration: none;
+
+        color: white;
+        border-radius: .35em .35em 0 0;
+    }
+
+    .text
+    {
+        font-size: .87em;
+
+        position: relative;
+        top: 30%;
+        left: -4%;
+    }
+
+    .droplink a:hover
+    {
+        color: white;
+        background-color: rgb(204,135,38);
+    }
+
+    .dropdown:hover .droplink
+    {
+        display: block;
+
+        height: auto;
+    }
+}
+
+/*mobile M*/
+@media (max-width: 376px) and (max-height: 900px)
+{
+    /*главное меню*/
+    .dropdown
+    {
+        font-size: 2vh;
+
+        float: right;
+        overflow: hidden;
+
+        width: 30vw ;
+        height: 100%;
+    }
+
+    .dropbutton
+    {
+        font-size: 2.3em;
+
+        width: 100%;
+        height: 100%;
+
+        color: white;
+        border: none;
+        outline: none;
+        background-color: inherit;
+    }
+
+    .topbar a:hover,
+    .dropdown:hover .dropbutton
+    {
+        background-color: rgb(204,135,38);
+    }
+
+    .droplink
+    {
+        position: absolute;
+        z-index: 1;
+        top: -48.6vh;
+
+        display: none;
+
+        width: 30vw;
+
+        border: .17em solid grey;
+        border-bottom: none;
+        border-radius: .5em .5em 0 0;
+        background-color: black ;
+    }
+
+    .droplink a
+    {
+        display: block;
+
+        height: 8vh;
+
+        text-decoration: none;
+
+        color: white;
+        border-radius: .35em .35em 0 0;
+    }
+
+    .text
+    {
+        font-size: .75em;
+
+        position: relative;
+        top: 30%;
+        left: -4%;
+    }
+
+    .droplink a:hover
+    {
+        color: white;
+        background-color: rgb(204,135,38);
+    }
+
+    .dropdown:hover .droplink
+    {
+        display: block;
+
+        height: auto;
+    }
+}
+
+/*mobile S*/
+@media (max-width: 321px) and (max-height: 900px)
+{
+    /*главное меню*/
+    .dropdown
+    {
+        font-size: 2vh;
+
+        float: right;
+        overflow: hidden;
+
+        width: 30vw ;
+        height: 100%;
+    }
+
+    .dropbutton
+    {
+        font-size: 2.3em;
+
+        width: 100%;
+        height: 100%;
+
+        color: white;
+        border: none;
+        outline: none;
+        background-color: inherit;
+    }
+
+    .topbar a:hover,
+    .dropdown:hover .dropbutton
+    {
+        background-color: rgb(204,135,38);
+    }
+
+    .droplink
+    {
+        position: absolute;
+        z-index: 1;
+        top: -48.6vh;
+
+        display: none;
+
+        width: 30vw;
+
+        border: .17em solid grey;
+        border-bottom: none;
+        border-radius: .5em .5em 0 0;
+        background-color: black ;
+    }
+
+    .droplink a
+    {
+        display: block;
+
+        height: 8vh;
+
+        text-decoration: none;
+
+        color: white;
+        border-radius: .35em .35em 0 0;
+    }
+
+    .text
+    {
+        font-size: .72em;
+
+        position: relative;
+        top: 30%;
+        left: -4%;
+    }
+
+    .droplink a:hover
+    {
+        color: white;
+        background-color: rgb(204,135,38);
+    }
+
+    .dropdown:hover .droplink
+    {
+        display: block;
+
+        height: auto;
+    }
+}
+
+/*сжимание экрана смартфона при использовании поиска*/
+@media (max-width: 481px) and (max-height: 491px)
+{
+    /*главное меню*/
+    .dropdown
+    {
+        font-size: 2vh;
+
+        float: right;
+        overflow: hidden;
+
+        width: 30vw ;
+        height: 100%;
+    }
+
+    .dropbutton
+    {
+        font-size: 3em;
+
+        width: 100%;
+        height: 100%;
+
+        color: white;
+        border: none;
+        outline: none;
+        background-color: inherit;
+    }
+
+    .droplink
+    {
+        position: absolute;
+        z-index: 1;
+        top: -73vh;
+
+        display: none;
+
+        width: 30vw;
+
+        border: .3em solid grey;
+        border-bottom: none;
+        border-radius: .5em .5em 0 0;
+        background-color: black ;
+    }
+
+    .droplink a
+    {
+        display: block;
+
+        height: 12vh;
+
+        text-decoration: none;
+
+        color: white;
+        border-radius: .35em .35em 0 0;
+    }
+
+    .text
+    {
+        font-size: 1.4em;
+
+        position: relative;
+        top: 30%;
+        left: -4%;
+    }
+}

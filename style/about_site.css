@@ -1,0 +1,267 @@
+   nav
+    {
+        box-sizing: border-box;
+    }
+/*бэкграунд страницы "о сайте"*/
+.about
+{
+    background-image: url(../system_img/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+/*текст на странице "о сайте"*/
+.textabout
+{
+    font-family: cursive;
+    font-size: 3vh;
+
+    position: absolute;
+    top: 15vh;
+    left: 11.5vw;
+
+    width: 70vw;
+    height: 80vh;
+
+    color: rgb(204,135,38);
+}
+
+.text4
+{
+    font-size: 1.2em;
+}
+
+.textabout span
+{
+    color: orange;
+}
+
+/*laptop L*/
+@media (max-width: 1441px) and (max-height: 900px)
+{
+    /*бэкграунд страницы "о сайте"*/
+    .about
+    {
+        background-image: url(../system_img/back.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    /*текст на странице "о сайте"*/
+    .textabout
+    {
+        font-family: cursive;
+        font-size: 3vh;
+
+        position: absolute;
+        top: 15vh;
+        left: 11.5vw;
+
+        width: 70vw;
+        height: 80vh;
+
+        color: rgb(204,135,38);
+    }
+
+    .text4
+    {
+        font-size: 1.2em;
+    }
+
+    .textabout span
+    {
+        color: orange;
+    }
+}
+
+/*laptop*/
+@media (max-width: 1240px) and (max-height: 900px)
+{
+    /*бэкграунд страницы "о сайте"*/
+    .about
+    {
+        background-image: url(../system_img/back.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    /*текст на странице "о сайте"*/
+    .textabout
+    {
+        font-family: cursive;
+        font-size: 3vh;
+
+        position: absolute;
+        top: 15vh;
+        left: 11.5vw;
+
+        width: 70vw;
+        height: 80vh;
+
+        color: rgb(204,135,38);
+    }
+
+    .text4
+    {
+        font-size: 1em;
+    }
+
+    .textabout span
+    {
+        color: orange;
+    }
+}
+
+/*tablet*/
+@media (max-width: 769px) and (max-height: 1025px)
+{
+    /*бэкграунд страницы "о сайте"*/
+    .about
+    {
+        background-image: url(../system_img/mainback.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+    }
+    /*текст на странице "о сайте"*/
+    .textabout
+    {
+        font-family: times new romane;
+        font-size: 1.5em ;
+
+        position: absolute;
+        top: 5vh;
+        left: 10vw;
+
+        overflow-y: auto;
+
+        width: 80vw;
+        height: 83vh;
+        padding-right: 2%;
+
+        color: rgb(204,135,38);
+    }
+
+    .textabout span
+    {
+        color: orange;
+    }
+}
+
+/*mobile L*/
+@media (max-width: 426px) and (max-height: 900px)
+{
+    /*бэкграунд страницы "о сайте"*/
+    .about
+    {
+        background-image: url(../system_img/mainback.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+    }
+    /*текст на странице "о сайте"*/
+    .textabout
+    {
+        font-family: times new romane;
+        font-size: 1em ;
+
+        position: absolute;
+        top: 5vh;
+        left: 10vw;
+
+        overflow-y: auto;
+
+        width: 80vw;
+        height: 83vh;
+        padding-right: 2%;
+
+        color: rgb(204,135,38);
+    }
+
+    .textabout span
+    {
+        color: orange;
+    }
+}
+
+/*mobile M*/
+@media (max-width: 376px) and (max-height: 900px)
+{
+    /*бэкграунд страницы "о сайте"*/
+    .about
+    {
+        background-image: url(../system_img/mainback.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+    }
+    /*текст на странице "о сайте"*/
+    .textabout
+    {
+        font-family: times new romane;
+        font-size: 1em ;
+
+        position: absolute;
+        top: 5vh;
+        left: 10vw;
+
+        overflow-y: auto;
+
+        width: 80vw;
+        height: 83vh;
+        padding-right: 2%;
+
+        color: rgb(204,135,38);
+    }
+
+    .textabout span
+    {
+        color: orange;
+    }
+}
+
+/*mobile S*/
+@media (max-width: 321px) and (max-height: 900px)
+{
+    /*бэкграунд страницы "о сайте"*/
+    .about
+    {
+        background-image: url(../system_img/mainback.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+    }
+    /*текст на странице "о сайте"*/
+    .textabout
+    {
+        font-family: cursive;
+        font-size: .9em ;
+
+        position: absolute;
+        top: 5vh;
+        left: 10vw;
+
+        overflow-y: auto;
+
+        width: 80vw;
+        height: 83vh;
+        padding-right: 2%;
+
+        color: rgb(204,135,38);
+    }
+
+    .textabout span
+    {
+        color: orange;
+    }
+}

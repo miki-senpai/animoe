@@ -1,0 +1,114 @@
+.am-container
+{
+    position: absolute;
+    top: 5vh;
+    left: 11.5vw;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    width: 83vw;
+    height: 78vh;
+    padding-right: 1%;
+    padding-left: 1%;
+
+    color: rgba(180,180,180,1);
+    border-left: .3vw solid rgba(255,165,0,.4);
+}
+
+.montage
+{
+    width: 19.4% !important;
+    height: 50% !important;
+    margin-bottom: .2% !important;
+}
+
+.am-wrapper
+{
+    margin-right: .2% !important;
+    margin-left: 0 !important;
+}
+.width
+{
+    width: 39.2% !important;
+}
+
+/*laptop*/
+@media (max-width: 1240px) and (max-height: 900px)
+{
+    .montage
+    {
+        height: 40% !important;
+    }
+}
+
+/*tablet*/
+@media (max-width: 769px) and (max-height: 1025px)
+{
+    .am-container
+    {
+        position: absolute;
+        top: 3vh;
+        left: 3vw;
+
+        width: 94vw;
+        height: 82vh;
+
+        border: none;
+    }
+
+    .montage
+    {
+        width: 31% !important;
+        height: 40% !important;
+        margin-bottom: 1% !important;
+    }
+
+    .am-wrapper
+    {
+        margin-left: 1% !important;
+    }
+    .width
+    {
+        width: 63.7% !important;
+    }
+}
+
+/*mobile L*/
+@media (max-width: 426px) and (max-height: 900px)
+{
+    .montage
+    {
+        height: 28% !important;
+    }
+    .width
+    {
+        width: 64% !important;
+    }
+}
+
+/*mobile M*/
+@media (max-width: 376px) and (max-height: 900px)
+{
+    .montage
+    {
+        height: 28% !important;
+    }
+    .width
+    {
+        width: 64.2% !important;
+    }
+}
+
+/*mobile S*/
+@media (max-width: 321px) and (max-height: 900px)
+{
+    .montage
+    {
+        height: 24% !important;
+    }
+    .width
+    {
+        width: 64.5% !important;
+    }
+}

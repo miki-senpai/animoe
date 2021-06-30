@@ -1,0 +1,55 @@
+/*обложки*/
+#a,#b,#c,#d,#e,#f,#g,#h,#i,#j,#k,#l
+{
+    background-position: center center;
+    background-size: 101% 101%;
+}
+
+#a
+{
+    background-image: url('../covers/сао.jpg');
+}
+#b
+{
+    background-image: url('../covers/сао2.jpg');
+}
+#c
+{
+    background-image: url('../covers/сао-порядковый ранг.jpg');
+}
+#d
+{
+    background-image: url('../covers/сао-алисизация.jpg');
+}
+#e
+{
+    background-image: url('../covers/сао-война-подмирье.jpg');
+}
+#f
+{
+    background-image: url('../covers/сао-война-подмирье2.jpg');
+}
+#g
+{
+    background-image: url('../covers/токийский-гуль.jpg');
+}
+#h
+{
+    background-image: url('../covers/токийский-гуль2.jpg');
+}
+#i
+{
+    background-image: url('../covers/токийский-гуль-перерождение.jpg');
+}
+#j
+{
+    background-image: url('../covers/токийский-гуль-перерождение2.jpg');
+}
+#k
+{
+    background-image: url('../covers/паразит.jpg');
+}
+#l
+{
+    background-image: url('../covers/тетрадь-смерти.jpg');
+}
