@@ -49,7 +49,46 @@
 				<a data-fancybox="gallery" href="../arts/10.jpg">
 					<img src="../arts/10.jpg" alt="">
 				</a>
-			</div>
+				<a data-fancybox="gallery" href="../arts/11.jpg">
+					<img src="../arts/11.jpg" alt="">
+				</a>
+				<a data-fancybox="gallery" href="../arts/12.jpg">
+					<img src="../arts/12.jpg" alt="">
+				</a>
+				<a data-fancybox="gallery" href="../arts/13.jpg">
+					<img src="../arts/13.jpg" alt="">
+				</a>
+				<a data-fancybox="gallery" href="../arts/14.jpg">
+					<img src="../arts/14.jpg" alt="">
+				</a>
+				<a data-fancybox="gallery" href="../arts/15.jpg">
+					<img src="../arts/15.jpg" alt="">
+				</a>
+				<a data-fancybox="gallery" href="../arts/16.jpg">
+					<img src="../arts/16.jpg" alt="">
+				</a>
+				<a data-fancybox="gallery" href="../arts/17.jpg">
+					<img src="../arts/17.jpg" alt="">
+				</a>
+				<a data-fancybox="gallery" href="../arts/18.jpg">
+					<img src="../arts/18.jpg" alt="">
+				</a>
+				<a data-fancybox="gallery" href="../arts/19.jpg">
+					<img src="../arts/19.jpg" alt="">
+				</a>
+				<a data-fancybox="gallery" href="../arts/20.jpg">
+					<img src="../arts/20.jpg" alt="">
+				</a>
+				<a data-fancybox="gallery" href="../arts/21.jpg">
+					<img src="../arts/21.jpg" alt="">
+				</a>
+				<a data-fancybox="gallery" href="../arts/22.jpg">
+					<img src="../arts/22.jpg" alt="">
+				</a>
+				<a data-fancybox="gallery" href="../arts/23.jpg">
+					<img src="../arts/23.jpg" alt="">
+				</a>
+			</section>
 
 			<link rel="stylesheet" href="https://snipp.ru/cdn/fancybox/3.5.7/jquery.fancybox.min.css">
 
@@ -107,6 +146,7 @@
 			fillLastRow: false
 			</script>
 		</section>
+		<button id="dark">Затемнить галерею</button>
 	</main>
 </body>
 </html>

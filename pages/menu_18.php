@@ -4,9 +4,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Menu18</title>
-	<link rel="stylesheet" type="text/css" href="style/style.css">
-	<link rel="stylesheet" type="text/css" href="style/menu_18.css">
-	<link rel="stylesheet" type="text/css" href="style/hieroglyphs.css">
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<link rel="stylesheet" type="text/css" href="../style/menu_18.css">
+	<link rel="stylesheet" type="text/css" href="../style/hieroglyphs.css">
 	<link rel="shortcut icon" type="image/x-icon" href="../system_img/icon.jpg">
 	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
 	<script src="../libraries/jquery-3.6.0.min.js"></script>
